@@ -1,0 +1,29 @@
+'use strict';
+
+/** @type Egg.EggPlugin */
+module.exports = {
+  // had enabled by egg
+  static: {
+    enable: true,
+  },
+
+  cors: {
+    enable: true,
+    package: 'egg-cors',
+  },
+
+  mysql: {
+    enable: true,
+    package: 'egg-mysql',
+  },
+
+  uuidInt: {
+    enable: true,
+    package: 'egg-uuid-int',
+  },
+
+  bcrypt: {
+    enable: true,
+    package: 'egg-bcrypt',
+  }
+};

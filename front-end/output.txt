@@ -1,0 +1,50 @@
+
+> rainng-course@0.1.0 build /Users/jackdeng/Documents/UOA/UOA_Course/2022S2_Local/Secure Software Engineering/GroupAssignment/DatingAppFrontendVue/SEE_dating_app_vue/RainngCourseFE
+> vue-cli-service build
+
+
+ WARNING  Compiled with 4 warnings12:56:54 PM
+
+ warning  in ./src/views/Container.vue?vue&type=script&lang=js&
+
+"export 'check' was not found in '@/common/ajax'
+
+ warning  
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  img/login-background.1781e597.jpg (461 KiB)
+  img/fontawesome-webfont.912ec66d.svg (434 KiB)
+  css/chunk-vendors.03700d6a.css (258 KiB)
+  js/chunk-vendors.0da24e26.js (2.33 MiB)
+
+ warning  
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (2.82 MiB)
+      css/chunk-vendors.03700d6a.css
+      js/chunk-vendors.0da24e26.js
+      css/app.52152fe4.css
+      js/app.ba2069c3.js
+
+
+ warning  
+
+webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+
+  File                                   Size              Gzipped
+
+  dist/js/chunk-vendors.0da24e26.js      2386.70 KiB       703.34 KiB
+  dist/js/app.ba2069c3.js                230.80 KiB        66.14 KiB
+  dist/css/chunk-vendors.03700d6a.css    258.00 KiB        41.35 KiB
+  dist/css/app.52152fe4.css              12.75 KiB         2.77 KiB
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+      
